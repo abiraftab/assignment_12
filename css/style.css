@@ -1,0 +1,162 @@
+@import url('https://fonts.googleapis.com/css?family=PT+Sans:400,700');
+body{
+    font-family: 'PT Sans', sans-serif;
+    color: #555555;
+    font-size: 16px;
+}
+header{
+    background-color: #fcdb00;
+    min-height: 100vh;
+}
+.bg-light {
+    background-color: transparent !important;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+.navbar-light .navbar-nav .nav-link {
+    color: #010101;
+    font-size: 22px;
+    font-weight: 600;
+}
+.owl_content{
+    width: 70%;
+}
+.owl_content h1{
+    font-size: 32px;
+    color: #010101;
+    font-weight: 600;
+}
+.owl_content h4{
+    font-size: 20px;
+    color: #313841;
+    margin: 15px 0px;
+}
+.owl_content p{
+    color: #555555;
+    font-size: 16px;
+}
+.owl_content ul{
+    
+    
+}
+.owl_content li{
+    
+}
+.owl_content li i{
+    font-size: 40px;
+    color: #010101;
+    margin-right: 20px;
+}
+.owl_img {
+    width: 50%;
+    margin-left: auto;
+}
+.owl_img img{}
+.owl-carousel {}
+.owl-carousel .item{}
+.feature_section_area{
+    padding:  100px 0px;
+}
+.heading{
+    text-align:  center;
+    padding-bottom:  50px;
+    width: 80%;
+    margin:  0 auto;
+}
+.heading h1{
+    font-size:  32px;
+    color:  #010101;
+    font-weight:  600;
+}
+.heading p{
+    font-size:  20px;
+    color:  #313841;
+}
+.feature{
+    padding: 20px;
+}
+.feature i{
+    font-size: 40px;
+    color: #010101;
+}
+.feature_content{}
+.feature_content h1{
+    margin:  0px;
+    font-size:  22px;
+    color: #010101;
+}
+.feature_content p{
+    font-size: 16px;
+    color:  #898989;
+    line-height:  20px;
+}
+.subscribe_section{
+    color: #fff;
+    background: #000;
+    text-align: center;
+    padding: 100px 0px;
+}
+.subscribe_heading{}
+.subscribe_heading h1{
+    color: #fcdb00;
+    font-size: 32px;
+}
+.subscribe_heading p{
+    color: #898989;
+    font-size: 20px;
+    width: 70%;
+    margin: 0 auto;
+    line-height: 24px;
+}
+form {
+    max-width: 600px;
+    margin: 20px auto;
+}
+form input{}
+.btn-custom{}
+.social{
+    margin-top: 40px;
+}
+form input[type="submit"]{
+    background: #fcdb00;
+    text-transform: uppercase;
+    font-weight: 600;
+}
+.social li{}
+.social li a{
+    display: block;
+    background:  #fcdb00;
+    color: #000;
+    font-size: 30px;
+    width: 40px;
+    height: 40px;
+    border-radius: 15%;
+}
+.footer_section{
+    background: #000;
+    color: #ffffff;
+    padding: 60px 0px;
+}
+.footer_section li:hover{
+    color: #fcdb00;
+}
+
+
+@media(max-width:991px){
+    .feature_content h1 {
+    font-size: 16px;
+}
+}
+
+@media(max-width:767px){
+   .feature {
+    text-align: center;
+}
+    .feature_content h1 {
+    margin: 10px 0px;
+}
+}
+
+
+
+
